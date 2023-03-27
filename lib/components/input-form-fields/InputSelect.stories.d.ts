@@ -1,0 +1,10 @@
+import { Story, ComponentMeta } from '@storybook/react';
+import { InputSelectProps } from './InputSelect';
+declare const _default: ComponentMeta<({ ariaLabel, autoFocus, className, "data-testid": dataTestId, defaultValue, disabled, endIcon, error, fullWidth, helperText, id, inputRef, label, name, onBlur, onChange, onFocus, onKeyDown, options, persistentLabel, readOnly, required, shrink, size, startIcon, success, value, warning, }: InputSelectProps) => JSX.Element>;
+export default _default;
+export declare const Default: Story<InputSelectProps>;
+export declare const WithPersistentLabel: Story<InputSelectProps>;
+export declare const WithError: Story<InputSelectProps>;
+export declare const WithSuccess: Story<InputSelectProps>;
+export declare const WithWarning: Story<InputSelectProps>;
+export declare const WithReadOnly: Story<InputSelectProps>;

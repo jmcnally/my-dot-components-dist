@@ -1,0 +1,2 @@
+export declare const rootClassName = "dot-app-switcher";
+export declare const StyledAppSwitcher: import("styled-components").StyledComponent<({ anchor, ariaLabel, className, children, "data-testid": dataTestId, drawerBodyProps, drawerFooterProps, drawerHeaderProps, height, ModalProps, onClose, open, PaperProps, variant, width, }: import("../drawer/Drawer").DrawerProps) => JSX.Element, any, {}, never>;

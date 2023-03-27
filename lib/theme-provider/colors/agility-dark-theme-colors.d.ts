@@ -1,0 +1,9 @@
+export declare const n0 = "#050A0A";
+export declare const n50 = "#14262E";
+export declare const n100 = "#244451";
+export declare const n200 = "#336275";
+export declare const n300 = "#7CB0C5";
+export declare const n400 = "#9FC5D5";
+export declare const n500 = "#E6F0F4";
+export declare const n600 = "#C3DBE4";
+export declare const n700 = "#FFFFFF";

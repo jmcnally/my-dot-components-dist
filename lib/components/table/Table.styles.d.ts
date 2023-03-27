@@ -1,0 +1,4 @@
+export declare const rootClassName = "dot-table";
+export declare const StyledPaper: import("styled-components").StyledComponent<import("@mui/material/OverridableComponent").OverridableComponent<import("@mui/material").PaperTypeMap<{}, "div">>, any, {}, never>;
+export declare const StyledTableContainer: import("styled-components").StyledComponent<import("@mui/material/OverridableComponent").OverridableComponent<import("@mui/material").TableContainerTypeMap<{}, "div">>, any, {}, never>;
+export declare const StyledMenu: import("styled-components").StyledComponent<({ anchorEl, ariaLabel, className, "data-testid": dataTestId, dense, disablePortal, id, loading, maxVisibleItems, menuItemHeight, menuItems, menuPlacement, onLeave, onSelect, open, selectedKey, }: import("../menu/Menu").MenuProps) => JSX.Element, any, {}, never>;

@@ -1,0 +1,3 @@
+export declare const rootClassName = "dot-split-button-group";
+export declare const StyledSplitButtonGroup: import("styled-components").StyledComponent<import("@mui/material/OverridableComponent").OverridableComponent<import("@mui/material").ButtonGroupTypeMap<{}, "div">>, any, {}, never>;
+export declare const StyledMenu: import("styled-components").StyledComponent<({ anchorEl, ariaLabel, className, "data-testid": dataTestId, dense, disablePortal, id, loading, maxVisibleItems, menuItemHeight, menuItems, menuPlacement, onLeave, onSelect, open, selectedKey, }: import("../menu/Menu").MenuProps) => JSX.Element, any, {}, never>;

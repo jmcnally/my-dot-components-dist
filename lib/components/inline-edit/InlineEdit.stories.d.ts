@@ -1,0 +1,15 @@
+import { ComponentMeta, Story } from '@storybook/react';
+import { InlineEditProps } from './InlineEdit';
+declare const _default: ComponentMeta<({ ariaLabel, bindings, charactersLimit, className, "data-testid": dataTestId, fullWidth, hideActionButtons, name, onChange, onEditStateChange, readOnly, selectTextOnEdit, tabIndex, tooltip, typography, value, }: InlineEditProps) => JSX.Element>;
+export default _default;
+export declare const Default: Story<InlineEditProps>;
+export declare const WithCharactersLimit: any;
+export declare const WithMultipleLines: any;
+export declare const WithReadOnlyMode: any;
+export declare const WithoutActionButtons: any;
+export declare const WithTooltip: any;
+export declare const WithSaveError: Story<InlineEditProps>;
+export declare const WithCustomTypography: Story<InlineEditProps>;
+export declare const WithSingleBinding: any;
+export declare const WithMultipleBindings: Story<InlineEditProps>;
+export declare const WithSelectOnEdit: any;

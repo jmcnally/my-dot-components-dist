@@ -1,0 +1,10 @@
+import { ComponentMeta } from '@storybook/react';
+import { DraggableListProps } from './';
+declare const _default: ComponentMeta<({ ariaLabel, className, "data-testid": dataTestId, disableDrag, draggableHandle, items, onChange, rowHeight, width, }: DraggableListProps) => JSX.Element>;
+export default _default;
+export declare const Default: any;
+export declare const WithCustomWidth: any;
+export declare const WithAvatar: any;
+export declare const WithIcons: any;
+export declare const WithDisabledDrag: any;
+export declare const WithDraggableHandle: any;

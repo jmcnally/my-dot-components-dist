@@ -1,0 +1,10 @@
+import { ComponentMeta } from '@storybook/react';
+import { IconButtonProps } from './IconButton';
+declare const _default: ComponentMeta<({ ariaLabel, className, color, "data-testid": dataTestId, disabled, disableRipple, iconId, iconSize, onClick, tooltip, size, }: IconButtonProps) => JSX.Element>;
+export default _default;
+export declare const Default: any;
+export declare const WithPrimaryColor: any;
+export declare const WithSecondaryColor: any;
+export declare const WithSmallSize: any;
+export declare const WithDisabledState: any;
+export declare const WithDisabledRipple: any;

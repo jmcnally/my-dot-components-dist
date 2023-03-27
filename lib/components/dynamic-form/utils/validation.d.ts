@@ -1,0 +1,25 @@
+import { DynamicFormConfig, DynamicFormOutputData, DynamicFormState, DynamicFormValidation, FieldValidation, ValidationField } from '../models';
+export declare const checkIfValidationApplies: (validationField: ValidationField, formValues: DynamicFormOutputData) => boolean;
+export declare const checkIfEmptyValue: (value: unknown) => boolean;
+export declare const checkIfString: (value: unknown) => boolean;
+export declare const checkIfEmptyString: (value: string) => boolean;
+export declare const checkIfArray: (value: unknown) => boolean;
+export declare const checkIfEmptyArray: (value: Array<unknown>) => boolean;
+export declare const checkIfStringRequiredInvalid: (value: string, validation: DynamicFormValidation, formValues: DynamicFormOutputData) => boolean;
+export declare const checkIfArrayRequiredInvalid: (value: unknown[], validation: DynamicFormValidation, formValues: DynamicFormOutputData) => boolean;
+export declare const checkIfMinLengthInvalid: (value: string | unknown[], validation: DynamicFormValidation, formValues: DynamicFormOutputData) => boolean;
+export declare const checkIfMaxLengthInvalid: (value: string | unknown[], validation: DynamicFormValidation, formValues: DynamicFormOutputData) => boolean;
+export declare const getInvalidFieldValidation: (errorMessage: string) => FieldValidation;
+export declare const getRequiredFieldValidationError: (validation: DynamicFormValidation) => FieldValidation;
+export declare const getMinLengthFieldValidationError: (validation: DynamicFormValidation) => FieldValidation;
+export declare const getMaxLengthFieldValidationError: (validation: DynamicFormValidation) => FieldValidation;
+export declare const getEmptyValueValidationError: (validation: DynamicFormValidation, formValues: DynamicFormOutputData) => FieldValidation | null;
+export declare const getStringValidationError: (value: string, validation: DynamicFormValidation, formValues: DynamicFormOutputData) => FieldValidation | null;
+export declare const getArrayValidationError: (array: unknown[], validation: DynamicFormValidation, formValues: DynamicFormOutputData) => FieldValidation | null;
+export declare const getCustomValidationError: (value: unknown, validation: DynamicFormValidation) => {
+    isValid: boolean;
+    errorMessage: string;
+};
+export declare const getFieldValidation: (value: unknown, validation: DynamicFormValidation, formValues: DynamicFormOutputData) => FieldValidation;
+export declare const getControlValidationFromConfig: (controlName: string, config: DynamicFormConfig) => DynamicFormValidation | undefined;
+export declare const checkIfFormDataValid: (formState: DynamicFormState) => boolean;

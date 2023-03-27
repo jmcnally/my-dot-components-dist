@@ -1,0 +1,12 @@
+import { Story, ComponentMeta } from '@storybook/react';
+import { SwitchProps } from './';
+declare const _default: ComponentMeta<({ ariaLabel, checked, className, color, "data-testid": dataTestId, disabled, id, inputRef, label, labelPlacement, onChange, size, }: SwitchProps) => JSX.Element>;
+export default _default;
+export declare const Default: Story<SwitchProps>;
+export declare const WithSecondaryColor: Story<SwitchProps>;
+export declare const WithDisabledState: Story<SwitchProps>;
+export declare const WithSmallSize: Story<SwitchProps>;
+export declare const WithStartLabelPlacement: Story<SwitchProps>;
+export declare const WithBottomLabelPlacement: Story<SwitchProps>;
+export declare const WithTopLabelPlacement: Story<SwitchProps>;
+export declare const WithoutLabel: Story<SwitchProps>;

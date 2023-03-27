@@ -1,0 +1,14 @@
+import { ComponentMeta, Story } from '@storybook/react';
+import { InputTextProps } from './InputText';
+declare const _default: ComponentMeta<({ autoComplete, autoFocus, className, defaultValue, "data-testid": dataTestId, disabled, error, endAdornmentTooltip, fullWidth, hasDebounce, helperText, endIcon, id, inputRef, label, maxRows, minRows, multiline, name, onBlur, onChange, onFocus, onKeyDown, onMouseUp, persistentLabel, placeholder, readOnly, required, shrink, startIcon, size, success, type, value, warning, }: InputTextProps) => JSX.Element>;
+export default _default;
+export declare const Default: Story<InputTextProps>;
+export declare const WithPersistentLabel: Story<InputTextProps>;
+export declare const WithHelperText: Story<InputTextProps>;
+export declare const WithError: Story<InputTextProps>;
+export declare const WithSuccess: Story<InputTextProps>;
+export declare const WithWarning: Story<InputTextProps>;
+export declare const WithErrorTooltip: Story<InputTextProps>;
+export declare const WithWarningTooltip: Story<InputTextProps>;
+export declare const WithReadOnly: Story<InputTextProps>;
+export declare const WithMultiline: Story<InputTextProps>;

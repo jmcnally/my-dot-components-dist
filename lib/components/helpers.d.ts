@@ -1,0 +1,11 @@
+import { ReactNode } from 'react';
+import { TypographyVariant } from './typography/Typography';
+import { AvatarColor } from './avatar/Avatar';
+export declare const calculateNumberFromText: (text: string) => number;
+export declare const calculateWidth: (width: number | string) => string | undefined;
+export declare const getAvatarColorForInputText: (value: string) => AvatarColor;
+export declare const isString: (str: unknown) => boolean;
+export declare const isLowerCase: (str: string) => boolean;
+export declare const isNumber: (num: unknown) => boolean;
+export declare const renderNodeOrTypography: (content: string | ReactNode, typographyVariant?: TypographyVariant) => ReactNode;
+export declare const searchString: (needle: string, haystack: string) => boolean;
